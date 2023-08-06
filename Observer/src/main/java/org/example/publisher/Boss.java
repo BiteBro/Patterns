@@ -6,7 +6,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Boss {
-    private List<CallMes> subscrs = new ArrayList();
+    private final List<CallMes> subscrs = new ArrayList<>();
     private String message = "New message";
 
     public void addSubscr(CallMes subscr){

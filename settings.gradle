@@ -2,4 +2,8 @@ rootProject.name = 'Patterns'
 include 'Decorator'
 include 'Observer'
 include 'Adapter'
+include 'SimpleFactory'
+include 'Prototype'
+include 'Builder'
+include 'StaticFactoryMethod'
 
