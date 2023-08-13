@@ -2,7 +2,7 @@ package org.example.subscribers;
 
 import org.example.publisher.Boss;
 
-public class One implements CallMes{
+public class One implements CallMessage {
     private Boss boss;
     private String mess = "Old mess";
 

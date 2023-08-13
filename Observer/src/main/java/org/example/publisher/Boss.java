@@ -1,18 +1,18 @@
 package org.example.publisher;
 
-import org.example.subscribers.CallMes;
+import org.example.subscribers.CallMessage;
 
 import java.util.ArrayList;
 import java.util.List;
 
 public class Boss {
-    private final List<CallMes> subscrs = new ArrayList<>();
+    private final List<CallMessage> subscrs = new ArrayList<>();
     private String message = "New message";
 
-    public void addSubscr(CallMes subscr){
+    public void addSubscr(CallMessage subscr){
         subscrs.add(subscr);
     }
-    public void removeSubscr(CallMes subscr){
+    public void removeSubscr(CallMessage subscr){
         subscrs.remove(subscr);
     }
 
@@ -25,7 +25,7 @@ public class Boss {
     }
 
     public void callUpdate(){
-        for (CallMes c: subscrs){
+        for (CallMessage c: subscrs){
             c.message(this.getMessage());
         }
     }

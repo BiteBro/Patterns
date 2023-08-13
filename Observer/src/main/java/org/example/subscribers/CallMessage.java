@@ -1,5 +1,5 @@
 package org.example.subscribers;
 
-public interface CallMes {
+public interface CallMessage {
     void message(String mess);
 }

@@ -6,4 +6,5 @@ include 'SimpleFactory'
 include 'Prototype'
 include 'Builder'
 include 'StaticFactoryMethod'
+include 'FactoryMethod'
 

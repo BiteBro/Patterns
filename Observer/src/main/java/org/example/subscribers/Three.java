@@ -1,6 +1,6 @@
 package org.example.subscribers;
 
-public class Three implements CallMes{
+public class Three implements CallMessage {
     private String mess = "Old mess";
     @Override
     public void message(String s) {
