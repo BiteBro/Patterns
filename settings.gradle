@@ -6,9 +6,6 @@ include 'SimpleFactory'
 include 'Prototype'
 include 'Builder'
 include 'StaticFactoryMethod'
-<<<<<<< HEAD
 include 'FactoryMethod'
-=======
 include 'Bridge'
->>>>>>> 7bd1aa77da81b8ea27e1c22876050896c97bf81c
 
